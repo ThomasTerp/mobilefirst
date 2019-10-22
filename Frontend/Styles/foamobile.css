@@ -1,0 +1,176 @@
+html, body  {
+    height: 100%;
+    overflow: hidden;
+}
+
+body
+{
+    font: normal 1em Verdana, Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+a
+{
+    color: #c21528;
+    text-decoration: none;
+}
+
+section > h1
+{
+    font-size: 2.6em;
+    text-align: center;
+}
+
+.vertical-center-wrapper
+{
+    position: relative;
+    height: 100%;
+}
+
+.vertical-center
+{
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.school
+{
+    display: block;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #c21528;
+    text-align: center;
+    font-size: 3em;
+    white-space: nowrap;
+    padding: 50px 0px 50px 0px;
+    margin: 40px 60px 40px 60px;
+}
+
+.book
+{
+    display: block;
+    position: relative;
+    background-color: #c21528;
+    color: #FFFFFF;
+    margin: 40px 60px 40px 60px;
+}
+
+.book > .product
+{
+    position: relative;
+    top: 0px;
+    left: -42px;
+    width: 260px;
+}
+
+.book > .cart
+{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 120px;
+}
+
+.book > .id
+{
+    position: absolute;
+    top: 10px;
+    left: 190px;
+    font-size: 1.6em;
+    color: #E8E8E8;
+}
+
+.book > .name
+{
+    position: absolute;
+    top: 56px;
+    left: 190px;
+    font-size: 2.4em;
+    width: calc(100% - 340px);
+    width: -o-calc(100% - 340px);
+    width: -webkit-calc(100% - 340px);
+    width: -moz-calc(100% - 340px);
+}
+
+.book > .description
+{
+    position: absolute;
+    top: 170px;
+    left: 190px;
+    font-size: 1em;
+    width: calc(100% - 560px);
+    width: -o-calc(100% - 560px);
+    width: -webkit-calc(100% - 560px);
+    width: -moz-calc(100% - 560px);
+}
+
+.book > .guided-price
+{
+    position: absolute;
+    bottom: 60px;
+    right: 20px;
+    font-size: 1.467em;
+}
+
+.book > .price
+{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 2em;
+}
+
+#MainHeader
+{
+    background-color: #c21528;
+    text-align: center;
+}
+
+#MainHeader > a
+{
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 4em;
+    white-space: nowrap;
+    padding: 30px 60px 30px 60px;
+}
+
+#ChooseEducationDiv
+{
+    position: relative;
+    height: calc(100% - 137px);
+    height: -o-calc(100% - 137px);
+    height: -webkit-calc(100% - 137px);
+    height: -moz-calc(100% - 137px);
+}
+
+#EducationsTable
+{
+    text-align: center;
+    margin: auto;
+}
+
+#EducationsTable div
+{
+    background-color: #c21528;
+    margin: 20px;
+}
+
+#EducationsTable a
+{
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 2.5em;
+    white-space: nowrap;
+    padding: 1em;
+}
+
+#Maps
+{
+    height: 1000px;
+}
