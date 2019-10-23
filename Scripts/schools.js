@@ -13,11 +13,7 @@ $(window).on("load", () =>
         
         createHTML()
         {
-            this.html = $(`
-                <a class="school" href="books.html?education=${GetURLParameter("education")}&school=${this.id}">
-                    ${this.name}
-                </a>
-            `);
+            this.html = $(`<a class="school" href="books.html?education=${GetURLParameter("education")}&school=${this.id}">${this.name}</a>`);
             
             return this.html;
         }
@@ -174,7 +170,7 @@ $(window).on("load", () =>
             };
             const successCallback = (coordinates) =>
             {
-                gotCoordinates(coordinates);
+                gotCoordinates(coordinates.coords);
             }
             const errorCallback = () =>
             {
