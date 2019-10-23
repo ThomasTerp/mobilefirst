@@ -1,6 +1,5 @@
 html, body  {
     height: 100%;
-    overflow: hidden;
 }
 
 body
@@ -172,5 +171,5 @@ section > h1
 
 #Maps
 {
-    height: 1000px;
+    height: 1050px;
 }

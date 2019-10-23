@@ -29,7 +29,13 @@ $(window).on("load", () =>
 		new School("vendsyssel", "Vendsyssel", {latitude: 57.507089, longitude: 10.279546}),
 		new School("thistedsosu", "Thisted, SOSU", {latitude: 56.965826, longitude: 8.704670}),
 		new School("herningsosu", "Herning, SOSU", {latitude: 56.142369, longitude: 8.969105}),
-		new School("kobenhavnsuniversistet", "Københavns Universitet", {latitude: 55.680191, longitude: 12.572345})
+        new School("kobenhavnsuniversistet", "Københavns Universitet", {latitude: 55.680191, longitude: 12.572345}),
+		new School("skive", "Skive", {latitude: 56.564456, longitude: 9.031183}),
+		new School("viborg", "Viborg", {latitude: 56.451380, longitude: 9.396372}),
+		new School("holstebro", "Holstebro", {latitude: 56.359148, longitude: 8.620398}),
+		new School("sosuhkbhg2", "SOSU H Kbh G2", {latitude: 55.667671, longitude: 12.556564}),
+		new School("campusbornholm", "Campus Bornholm", {latitude: 55.102347, longitude: 14.697799}),
+		new School("hillerodpau", "Hillerød PAU", {latitude: 55.930623, longitude: 12.293023})
 	];
     
     //Get a parameter from the URL
@@ -137,7 +143,7 @@ $(window).on("load", () =>
             return getDistance(coordinates, school1.coordinates)-getDistance(coordinates, school2.coordinates);
         });
         
-        for(let schoolIndex = 0; schoolIndex < 4; schoolIndex++)
+        for(let schoolIndex = 0; schoolIndex < 8; schoolIndex++)
         {
             const school = schools[schoolIndex];
             
